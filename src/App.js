@@ -1,9 +1,12 @@
 import React from "react";
+import Header from "./components/Header";
+import Cooks from "./components/Cooks";
 
 const App = () => {
   return (
     <div>
-      <h1>Démmarge</h1>
+      <Header />
+      <Cooks />
     </div>
   );
 };
