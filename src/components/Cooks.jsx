@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Card from "./Card";
 
 const Cooks = () => {
+  useEffect(() => {}, []);
   return (
     <ul className="cook">
       <Card />
